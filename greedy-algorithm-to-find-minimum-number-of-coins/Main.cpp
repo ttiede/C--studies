@@ -4,7 +4,7 @@
 using namespace std;
 
 
-int num_moedas(vector<int>)& moedas, int troco);
+int num_moedas(vector<int>& moedas, int troco)
 {
 	   int qte_moedas = 0;
 	   int tam_moedas = moedas.size();
